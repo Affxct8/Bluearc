@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blue Arc Data & Electrical | Electrician in Bonbeach, Seaford & Carrum</title>
+<meta name="description" content="Qualified Bonbeach electricians with 13+ years experience. Homes, medical centres and offices across Bonbeach, Seaford, Carrum, Mordialloc and Parkdale. Free no obligation quotes.">
+<meta property="og:title" content="Blue Arc Data & Electrical">
+<meta property="og:description" content="Qualified electricians servicing Bonbeach, Seaford, Carrum and surrounds. Free no obligation quotes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Electrician","name":"Blue Arc Data & Electrical","telephone":"+61438055234","email":"daniel@bluearcelec.com.au","address":{"@type":"PostalAddress","addressLocality":"Bonbeach","addressRegion":"VIC","postalCode":"3196","addressCountry":"AU"},"areaServed":["Bonbeach","Seaford","Carrum","Mordialloc","Parkdale"]}</script>
+<style>
+:root{--navy:#0b1d36;--navy2:#13294a;--arc:#2f7bff;--paper:#f4f6f9;--ink:#0f1a2b;--muted:#51607a;--line:#d6dce6;--cta:#ffb81c;--cta-ink:#1a1300;--surface:#fff;--font-d:'Archivo','Arial Narrow',Arial,sans-serif;--font-b:'Public Sans',system-ui,Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#0b1424;--ink:#eef2f8;--muted:#a3b0c7;--line:#243553;--surface:#101e36}}
+:root[data-theme="dark"]{--paper:#0b1424;--ink:#eef2f8;--muted:#a3b0c7;--line:#243553;--surface:#101e36}
+*{box-sizing:border-box;margin:0}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--font-b);overflow-x:hidden}
+h1,h2,h3{font-family:var(--font-d);line-height:1.05;letter-spacing:-.01em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--arc);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.btn{display:inline-block;padding:14px 24px;font:700 16px var(--font-d);text-decoration:none;border:2px solid transparent;border-radius:4px;min-height:48px;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-cta{background:var(--cta);color:var(--cta-ink)}
+.btn-line{border-color:#fff6;color:#fff}
+header{position:sticky;top:0;z-index:10;background:var(--navy);color:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font:800 20px var(--font-d);text-decoration:none;display:flex;gap:8px;align-items:center}
+.logo b{color:var(--arc)}
+nav{display:flex;gap:22px;align-items:center}
+nav a{text-decoration:none;font-weight:500;font-size:15px}
+nav a.btn{padding:8px 16px;min-height:40px;font-size:15px}
+.menu{display:none;background:none;border:2px solid #fff6;color:#fff;border-radius:4px;width:48px;height:44px;font-size:20px;cursor:pointer}
+@media(max-width:720px){.menu{display:block}nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:stretch;padding:12px 20px 20px;gap:4px}nav.open{display:flex}nav a{padding:12px 0;font-size:18px}nav a.btn{text-align:center;margin-top:8px}}
+.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden;padding:72px 0 80px}
+.hero svg{position:absolute;right:-60px;top:0;height:100%;width:60%;opacity:.9;pointer-events:none}
+.hero .wrap{position:relative}
+.hero h1{font-size:clamp(40px,7vw,84px);font-weight:800;max-width:11em}
+.hero p{max-width:34em;margin:22px 0 30px;color:#c9d6ee;font-size:19px}
+.hero .row{display:flex;flex-wrap:wrap;gap:12px}
+.bar{background:var(--arc);color:#fff}
+.bar ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:4px 20px}
+.bar li{padding:14px 0;font:700 15px var(--font-d)}
+section{padding:80px 0}
+h2{font-size:clamp(30px,4.5vw,50px);font-weight:800;margin-bottom:14px}
+.lead{color:var(--muted);max-width:40em;margin-bottom:40px}
+.sectors{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0;border-top:3px solid var(--ink)}
+.sector{padding:28px 24px 28px 0}
+.sector+.sector{padding-left:24px;border-left:1px solid var(--line)}
+.sector h3{font-size:26px;margin-bottom:8px}
+.sector p{color:var(--muted)}
+.sector .tag{font:700 15px var(--font-d);color:var(--arc);margin-top:12px}
+@media(max-width:820px){.sector+.sector{padding-left:0;border-left:0;border-top:1px solid var(--line)}}
+.svc{columns:3 220px;column-gap:40px;list-style:none;padding:0}
+.svc li{padding:12px 0;border-bottom:1px solid var(--line);break-inside:avoid;font-weight:500}
+.dark{background:var(--navy);color:#fff}
+.dark .lead{color:#b9c7e0}
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+@media(max-width:820px){.about{grid-template-columns:1fr}}
+.ph{aspect-ratio:4/3;border:2px dashed #fff5;border-radius:4px;display:grid;place-items:center;text-align:center;padding:20px;color:#b9c7e0;font-size:15px}
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px;margin-top:20px}
+blockquote{border-left:4px solid var(--arc);padding-left:20px;font-size:19px}
+blockquote cite{display:block;margin-top:10px;font:700 15px var(--font-d);font-style:normal;color:var(--muted)}
+.areas{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin-top:20px}
+.areas li{border:1px solid var(--line);padding:6px 14px;border-radius:99px;font-weight:500;background:var(--surface)}
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px}
+@media(max-width:820px){.contact{grid-template-columns:1fr}}
+.big{font:800 clamp(30px,5vw,44px) var(--font-d);text-decoration:none;display:block;margin:4px 0 18px}
+form{background:var(--surface);border:1px solid var(--line);padding:28px;border-radius:6px;display:grid;gap:16px}
+label{font-weight:600;font-size:15px;display:grid;gap:6px}
+input,textarea{font:inherit;padding:12px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);width:100%;min-height:48px}
+#note{font-size:14px;color:var(--muted)}
+footer{background:var(--navy);color:#b9c7e0;padding:32px 0;font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between}
+footer a{color:#fff}
+@media(prefers-reduced-motion:no-preference){.hero h1,.hero p,.hero .row{animation:in .7s both}.hero p{animation-delay:.1s}.hero .row{animation-delay:.2s}.hero .arc{stroke-dasharray:1400;animation:draw 2.2s ease-out both}}
+@keyframes in{from{opacity:0;transform:translateY(14px)}}
+@keyframes draw{from{stroke-dashoffset:1400}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<a class="logo" href="#top" aria-label="Blue Arc Data & Electrical home"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path d="M3 24 Q15 -4 27 24" fill="none" stroke="#2f7bff" stroke-width="4" stroke-linecap="round"/></svg>Blue Arc <b>Data &amp; Electrical</b></a>
+<button class="menu" aria-label="Menu" aria-expanded="false" aria-controls="nav">&#9776;</button>
+<nav id="nav" aria-label="Main">
+<a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+<a class="btn btn-cta" href="tel:0438055234">Call 0438 055 234</a>
+</nav>
+</div>
+</header>
+<main id="top">
+<div class="hero">
+<svg viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path class="arc" d="M40 640 Q300 -120 640 560" fill="none" stroke="#2f7bff" stroke-width="10" stroke-linecap="round"/><path d="M110 640 Q330 40 640 600" fill="none" stroke="#2f7bff" stroke-opacity=".35" stroke-width="3"/></svg>
+<div class="wrap">
+<h1>Qualified electricians for Bonbeach, Seaford and Carrum.</h1>
+<p>Blue Arc Data &amp; Electrical designs, installs and maintains electrical and data systems for new homes, renovations, medical centres and offices. Solutions that suit your budget.</p>
+<div class="row"><a class="btn btn-cta" href="#contact">Get a free quote</a><a class="btn btn-line" href="tel:0438055234">Call 0438 055 234</a></div>
+</div>
+</div>
+<div class="bar"><div class="wrap"><ul>
+<li>Over 13 years experience</li><li>Free no obligation quotes</li><li>Licensed: REC 22238</li><li>Homes and businesses</li>
+</ul></div></div>
+
+<section id="services">
+<div class="wrap">
+<h2>Three kinds of work, done properly.</h2>
+<p class="lead">Residential or commercial, upgrade or new build. Here is where Blue Arc does most of its work.</p>
+<div class="sectors">
+<div class="sector"><h3>New homes and renovations</h3><p>Wiring for new builds, renovations and extensions.</p><div class="tag">Keeping you wired</div></div>
+<div class="sector"><h3>Medical centres and healthcare</h3><p>Electrical work for medical centres and healthcare facilities, with certification.</p><div class="tag">Keeping you safe</div></div>
+<div class="sector"><h3>Offices and commercial</h3><p>Office fitouts, renovations and ongoing maintenance.</p><div class="tag">Keeping your business running</div></div>
+</div>
+<h3 style="font-size:28px;margin:56px 0 12px">Everything we install and fix</h3>
+<ul class="svc">
+<li>Electrical safety and maintenance inspections</li><li>Switchboard upgrades</li><li>LED lighting</li><li>Electrical troubleshooting</li><li>Audio/visual installations</li><li>Air conditioning installation</li><li>Wall-mounted TV installation</li><li>Antenna cabling and installation</li><li>Ceiling fan installation</li><li>Data cabling</li><li>Outdoor and landscape lighting</li><li>Office fit-outs</li><li>Renovation and extension fit-outs</li><li>Warehouse conversions</li><li>Home automation</li>
+</ul>
+</div>
+</section>
+
+<section id="about" class="dark">
+<div class="wrap about">
+<div>
+<h2>Reliable, and happy to work to your budget.</h2>
+<p class="lead" style="margin-bottom:16px">Blue Arc works with homeowners and business owners who want qualified electricians they can rely on. With over 13 years of experience, it is a young business building relationships with builders, developers, business owners and homeowners.</p>
+<p class="lead" style="margin-bottom:0">Every project is taken from design to completion with care and professionalism.</p>
+</div>
+<div class="ph" role="img" aria-label="Placeholder for Blue Arc van photo">Photo needed: Blue Arc van.<br>Replace this box with your own photo (the original site has one).</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<h2>What customers say.</h2>
+<div class="quotes">
+<blockquote>I was extremely happy with the service and work completed by Danny. He was punctual and his price was much better than other quotes I had received.<cite>Peter P</cite></blockquote>
+<blockquote>Daniel is efficient and professional. Quality workmanship that shows attention to detail. We have had Daniel work on multiple projects and he always produces outstanding service. I would highly recommend Blue Arc.<cite>Glenn S</cite></blockquote>
+</div>
+</div>
+</section>
+
+<section id="contact" style="background:var(--surface)">
+<div class="wrap contact">
+<div>
+<h2>Get a free, no obligation quote.</h2>
+<p>Call, email or send the form.</p>
+<a class="big" href="tel:0438055234">0438 055 234</a>
+<p><a href="mailto:daniel@bluearcelec.com.au">daniel@bluearcelec.com.au</a></p>
+<p style="margin-top:14px">Based in Bonbeach VIC 3196. Servicing:</p>
+<ul class="areas"><li>Bonbeach</li><li>Seaford</li><li>Carrum</li><li>Mordialloc</li><li>Parkdale</li><li>Surrounding suburbs</li></ul>
+<p style="margin-top:18px"><a href="https://www.facebook.com/BlueArcdataandelec">Facebook</a> &middot; <a href="https://www.instagram.com/bluearcdataandelectrical/">Instagram</a></p>
+</div>
+<form id="f" novalidate>
+<label>Name *<input name="name" autocomplete="name" required></label>
+<label>Phone *<input name="phone" type="tel" autocomplete="tel" required></label>
+<label>Email *<input name="email" type="email" autocomplete="email" required></label>
+<label>Message<textarea name="msg" rows="4"></textarea></label>
+<button class="btn btn-cta" type="submit">Send quote request</button>
+<p id="note" role="status">This opens your email app with the details filled in.</p>
+</form>
+</div>
+</section>
+</main>
+<footer><div class="wrap">
+<div>&copy; <span id="y">2026</span> Blue Arc Data &amp; Electrical &middot; REC 22238</div>
+<div>Bonbeach VIC 3196 &middot; <a href="tel:0438055234">0438 055 234</a></div>
+</div></footer>
+<script>
+const b=document.querySelector('.menu'),n=document.getElementById('nav');
+b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',e=>{if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded',false)}});
+document.getElementById('y').textContent=new Date().getFullYear();
+document.getElementById('f').addEventListener('submit',e=>{
+e.preventDefault();const f=e.target,v=f.elements,note=document.getElementById('note');
+if(!v.name.value.trim()||!v.phone.value.trim()||!/\S+@\S+\.\S+/.test(v.email.value)){note.textContent='Please enter your name, phone and a valid email.';return}
+const body='Name: '+v.name.value+'\nPhone: '+v.phone.value+'\nEmail: '+v.email.value+'\n\n'+v.msg.value;
+location.href='mailto:daniel@bluearcelec.com.au?subject='+encodeURIComponent('Quote request from '+v.name.value)+'&body='+encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
